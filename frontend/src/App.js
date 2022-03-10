@@ -1,7 +1,7 @@
 import {Container} from 'react-bootstrap';
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Homescreen from './screens/Homescreen';
+import HomeScreen from './screens/HomeScreen';
 
 //arrow functions
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
 
     <main>
       <Container>
-    <Homescreen />
+    <HomeScreen />
     </Container>
     </main>
 
