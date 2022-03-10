@@ -1,7 +1,7 @@
-import {Container} from 'react-bootstrap';
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import HomeScreen from './screens/HomeScreen';
+import {Container} from 'react-bootstrap'
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import HomeScreen from './screens/HomeScreen'
 
 //arrow functions
 const App = () => {
