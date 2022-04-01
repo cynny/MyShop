@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import axios from 'axios'
 import { Row, Col } from 'react-bootstrap'
-import products from '../products'
 import Product from '../components/Product'
 
 const Homescreen = () => {
+
+  useEffect(()) => {
+    axios.get('/api/products')
+  }
+
+
   return (
     <>
     <h1>Latest Products</h1>
